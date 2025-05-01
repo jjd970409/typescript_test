@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>상품 관리</title>
+</head>
+<body>
+  <h1>상품 관리</h1>
+  
+  <h2>상품 등록</h2>
+  <form id="product-form">
+    <label for="name">상품명:</label>
+    <input type="text" id="name" required><br>
+    
+    <label for="description">설명:</label>
+    <input type="text" id="description"><br>
+    
+    <label for="price">가격:</label>
+    <input type="number" id="price" required><br>
+
+    <button type="button" id="add-product-btn">상품 등록</button>
+  </form>
+
+  <h2>상품 목록</h2>
+  <ul id="product-list">
+    <!-- 상품 목록이 여기에 표시됩니다. -->
+  </ul>
+
+  <script src="app.js"></script>
+</body>

@@ -1,0 +1,8 @@
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+  "name": "테스트 상품",
+  "description": "테스트 설명입니다.",
+  "price": 9900
+}
